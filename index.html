@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdView - Publicités Premium</title>
+    
+    <!-- SEO & Métas langues -->
+    <meta name="description" content="Découvrez des publicités exclusives, affichées avec un design premium.">
+    <meta name="keywords" content="publicités, annonces, ads, monétisation, premium">
+    <meta name="author" content="AdView">
+    <meta http-equiv="Content-Language" content="fr">
+
+    <!-- CDN de TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+
+    <!-- Conteneur principal pour les pubs -->
+    <div class="min-h-screen flex flex-col justify-center items-center">
+        
+        <!-- Bloc des publicités -->
+        <div id="ads-container" class="w-full max-w-4xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 py-6">
+            <!-- Pub individuelle -->
+            <div class="ad bg-white p-6 rounded-lg shadow-lg dark:bg-gray-800 transition-all hover:shadow-xl transform hover:scale-105">
+                <h2 class="text-xl font-semibold text-gray-800 dark:text-white">Publicité 1 - Offres spéciales</h2>
+                <p class="text-gray-600 dark:text-gray-300 mt-2">Découvrez les meilleures offres sur des produits exclusifs !</p>
+                <a href="#" class="mt-4 inline-block bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition-all">Cliquez ici</a>
+            </div>
+            
+            <!-- Pub 2 -->
+            <div class="ad bg-white p-6 rounded-lg shadow-lg dark:bg-gray-800 transition-all hover:shadow-xl transform hover:scale-105">
+                <h2 class="text-xl font-semibold text-gray-800 dark:text-white">Publicité 2 - Vente Flash</h2>
+                <p class="text-gray-600 dark:text-gray-300 mt-2">Les meilleures réductions sur vos produits préférés !</p>
+                <a href="#" class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 transition-all">Découvrez maintenant</a>
+            </div>
+
+            <!-- Pub 3 -->
+            <div class="ad bg-white p-6 rounded-lg shadow-lg dark:bg-gray-800 transition-all hover:shadow-xl transform hover:scale-105">
+                <h2 class="text-xl font-semibold text-gray-800 dark:text-white">Publicité 3 - Promotions exclusives</h2>
+                <p class="text-gray-600 dark:text-gray-300 mt-2">Ne manquez pas nos offres limitées !</p>
+                <a href="#" class="mt-4 inline-block bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition-all">Voir les offres</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Script JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
